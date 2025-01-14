@@ -23,7 +23,7 @@ jobs:
       - name: Step 3 - Set  Printing USERNAME
         run: |
           echo "Printing USERNAME env veriable from previous step"
-          echo "Username ---- {{ env.USERNAME }}"
+          echo "Username ---- ${{ env.USERNAME }}"
       
       - name: Step  - Print USER_2
         run: |
