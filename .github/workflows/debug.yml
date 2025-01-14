@@ -24,7 +24,6 @@ jobs:
         run: |
           echo "Printing USERNAME env veriable from previous step"
           echo "Username ---- {{ env.USERNAME }}"
-          exit 1
       
       - name: Step  - Print USER_2
         run: |
